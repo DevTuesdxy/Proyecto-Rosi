@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    height: 100%;
+    gap: 2rem;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+
+}
+
+nav > div{
+    display: flex;
+    height: 100%;
+    padding: 1rem 2rem;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+span{
+    color: red;
+}
